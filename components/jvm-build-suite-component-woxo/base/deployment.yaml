@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-woxo
     spec:
       containers:
-      - image: quay.io/rh_ee_tnevrlka/test-images:bed9130c75c643ecb0ddd419622eaf4e
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:7f787677dfdc35996c42d0e5586c6b22a694c4c3c6b70d12cdb2c5a3d4e5f966
         imagePullPolicy: Always
         livenessProbe:
           httpGet:

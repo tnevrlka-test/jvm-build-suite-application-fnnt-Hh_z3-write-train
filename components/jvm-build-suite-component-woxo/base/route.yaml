@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-woxo
     app.kubernetes.io/part-of: jvm-build-suite-application-fnnt
-  name: jvm-build-suite-componentnuqt
+  name: jvm-build-suite-componentnzkg
   namespace: jvm-build-dpjr-tenant
 spec:
   port:
