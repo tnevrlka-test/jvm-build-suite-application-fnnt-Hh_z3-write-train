@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-woxo
+  namespace: jvm-build-dpjr-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:7f787677dfdc35996c42d0e5586c6b22a694c4c3c6b70d12cdb2c5a3d4e5f966
+        name: container-image
+        resources: {}
+status: {}
